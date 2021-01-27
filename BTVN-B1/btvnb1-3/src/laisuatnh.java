@@ -3,17 +3,16 @@ import java.util.Scanner;
 
 public class laisuatnh {
     public static void main(String[] args) throws Exception {
-        Scanner tk = new Scanner(System.in);
+        double loan = 100_000_000d;
+        double yearRate = 12d;
 
-        long soNo = 100_000_000L;
-        System.out.println("Số tiền đang nợ ngân hàng là : " + soNo);
+        double monthRate = ( yearRate /100 ) / 12;
+        double earnings = loan * monthRate ;
+        double totalEarnings = loan / 12 + earnings ;
 
-        double lsThang, tlThang, ttThang;
-        lsThang = (12 / 100) / 12;
-        tlThang = soNo * lsThang;
-        ttThang = (soNo / 12) + tlThang;
-
-        System.out.println("Tiền lãi phải trả hàng tháng là : " + ttThang);
+        System.out.format("Số nợ của bạn là : %1.0f \n" , loan);
+        System.out.format("Tiền lãi phải trả hàng tháng là : %1.0f \n" , earnings);
+        System.out.format("Tổng số tiền phải trả hàng tháng là : %1.0f \n" , totalEarnings);
         
         tk.close();
 
