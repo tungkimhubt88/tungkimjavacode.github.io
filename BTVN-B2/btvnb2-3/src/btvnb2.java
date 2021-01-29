@@ -7,7 +7,7 @@ public class btvnb2 {
         int n = tk.nextInt();
         int giaiThua = 1;
 
-        for (int i = 1; i <= n; i++) {
+            for (int i = 1; i <= n; i++) {
             giaiThua *= i;
         }
         System.out.println(n + "! = " + giaiThua); 

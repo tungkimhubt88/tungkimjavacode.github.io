@@ -16,7 +16,7 @@ public class btvnb2 {
              int sumOfPrevTwo = num1 + num2;
              num1 = num2;
              num2 = sumOfPrevTwo;
-            i++;
+                i++;
         }
         System.out.println();
         System.out.println();

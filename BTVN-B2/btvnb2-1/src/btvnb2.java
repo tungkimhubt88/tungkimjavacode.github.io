@@ -8,7 +8,7 @@ public class btvnb2 {
         double b = tk.nextDouble();
         double c = tk.nextDouble();
              if ((a + b > c) || (a + c > b) || (c + b > a)) {
-            System.out.println("Đây là 3 cạnh của tam giác");
+            System.out.println("Đây là 3 cạnh của tam giácc");
         } 
              else {
             System.out.println("Đây không phải 3 cạnh của một tam giác");
