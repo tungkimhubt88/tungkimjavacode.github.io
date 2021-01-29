@@ -11,6 +11,7 @@ public class btvnb2 {
             System.out.println("Đây là 3 cạnh của tam giácc");
         } 
              else {
+                 
             System.out.println("Đây không phải 3 cạnh của một tam giác");
         }
         tk.close();

@@ -10,6 +10,8 @@ public class btvnb2 {
             for (int i = 1; i <= n; i++) {
             giaiThua *= i;
         }
+
+        
         System.out.println(n + "! = " + giaiThua); 
         tk.close();
     }

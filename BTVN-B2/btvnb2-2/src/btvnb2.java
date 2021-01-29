@@ -18,9 +18,6 @@ public class btvnb2 {
              num2 = sumOfPrevTwo;
                 i++;
         }
-        System.out.println();
-        System.out.println();
-        System.out.println("Tùng Kim");
         tk.close();
     }
     
